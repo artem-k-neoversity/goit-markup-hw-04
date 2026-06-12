@@ -276,7 +276,35 @@ section.team ul li .content {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  align-items: center;
   text-align: center;
+}
+
+section.team ul li .team-socials {
+  display: flex;
+  gap: 24px;
+  width: 232px;
+  height: 40px;
+  margin-top: 8px;
+}
+
+section.team ul li .team-social-link {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--iris);
+  border-radius: 50%;
+}
+
+section.team ul li .team-social-link:hover,
+section.team ul li .team-social-link:focus {
+  background-color: var(--ocean);
+}
+
+section.team ul li .team-social-icon {
+  fill: var(--cloud);
 }
 
 /* Portfolio */
