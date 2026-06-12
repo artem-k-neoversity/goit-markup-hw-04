@@ -174,7 +174,7 @@ address a:focus {
       var(--grey)
     ),
     url(../images/hero/people-office.png);
-  max-width: 1440px;
+  max-width: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
